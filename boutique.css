@@ -1,0 +1,136 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(ChatGPT\ Image\ 14\ avr.\ 2025\,\ 02_50_39.png) ;
+    height: 100%;
+    font-family: Trirong serif;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1.9s ease-in;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0.5; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.login-header {
+    background: linear-gradient(45deg, #a84429, #5b1c02);
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    animation: fadeIn 3s;
+}
+
+.login-box {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+.login-header {
+    background: linear-gradient(45deg, #933723, #af774c);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header {
+    background: linear-gradient(45deg, #933723, #af774c);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+input:focus{ 
+        outline: none;
+        border-bottom-color: #009688;
+        background-color: white;
+}
+
+input:hover {
+        transform: scale(1.2);
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.social-container:hover {
+    transform: scale(1.2);
+}
+
+.social-icon{
+    margin: 0 10px;
+    transition: all 0.3s;
+}
+
+.fa-paypal{
+    font-size: 20px;
+    color: #003087;
+}
+
+.fa-apple{
+    font-size: 20px;
+    color: black;
+}
+.fa-credit-card{
+    font-size: 20px;
+    color: red;
+}
+
+.fa-wallet{
+    font-size: 20px;
+    color: brown;
+}
+
+button{
+    justify-content: center;
+    background-color: rgb(0, 140, 255);
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+}
+
+button:hover{
+    transform: scale(0.9);
+}

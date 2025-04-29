@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <style>
+        body{
+    animation: fadeIn 1.5s ease-in;
+  animation-timing-function: ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+h3 {
+    color: rgb(0, 0, 0);
+    background-color:rgb(168, 99, 57);
+}
+
+.card {
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    padding: 8px;
+    display:inline-block ;
+    vertical-align: top;
+    width: 40%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+ }
+ .contenair{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ img{
+    width: 20px;
+    height: 15px;
+ }
+
+footer{
+    background-color: rgb(36, 105, 232);
+    color: white;
+
+}
+    </style>
+</head>
+<body>
+  
+        <div class="w3-container w3-center w3-padding-32 w3-card-16" style="background-color:rgb(168, 99, 57); box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);">
+            <a href="Projet.html"><img src="home_26dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" style="float: left;" alt=""></a>
+            <h2> Contactez-nous </h2>
+            <p >Nous sommes ouvert 24h/24 et 7jrs/7 pour repondre a vos besoins ! </p>
+        </div>
+
+            <div class="card" >
+                <h3>Ecrivez-nous </h3>
+                <p>Avez vous des incomprehensions ou des commentaires sur nos article ? Remplissez le formulaire ci-dessous.</p>
+
+                    <form action="">
+                        <label for="">Noms: </label><br>
+                        <input type="text" size="35" placeholder="Noms..."><br><br>
+
+                        <label for="">Prenoms: </label><br>
+                        <input type="text" size="35" placeholder="Prenoms..."><br><br>
+
+                        <label for="">Entreprise / organisation: </label><br>
+                        <input type="text" placeholder="..."><br><br>
+
+                        <label for="">Fonction / Poste: </label><br>
+                        <input type="text" required placeholder="Entrez votre poste..."><br><br>
+
+                        <label for="">Numero de telephone: </label><br>
+                        <input type="number" placeholder="+237..." required ><br>
+                        <input type="number" placeholder="+237..." required><br>
+                        <input type="number" placeholder="+237..."><br><br>
+
+                        <label for="">Adresse e-mail: </label><br>
+                        <input type="Email" size= "44" required placeholder="xy@example.com"><br><br>
+                        
+                        <label for="">Adresse postale: </label><br>
+                        <input type="text"><br><br>
+
+                        <label for="">Reseaux sociaux utilisés (Facultatif): </label>
+
+                        <a href=""><i class="fas fa-wallet social-icon"></i></a>
+                        <a href="#"><i class="fab fa-apple social-icon"></i></a>
+                        <a href="#"><i class="fas fa-credit-card social-icon"></i></a>
+                        <a href="#"><i class="fab fa-paypal social-icon"></i></a>
+                        <br><br>
+
+                        <button class="w3-blue">Envoyez</button><br><br>
+                    </form>
+            </div>
+        
+            <div class="card">
+                <h3> Informations de Contact.</h3>
+                <p>Nous repondons au: </p>
+                <p>+237 6 21 43 65 87</p>
+
+                <p>299 Bali Avenue Manga Bell</p>
+                <p>contact@entreprise.com</p>
+
+                <p> Lundi-Vendredi 9h-17h <br>
+                Samedi 10h-14h <br>
+                Dimanche Ferme</p><br>
+            </div>
+
+            <footer class="w3-center">
+                <p>© 2025 YEDID-TREND<br>
+                       <a href="">Politique de confidentialite   Condition d'utilisation   Plan du Site</a></p>
+            </footer>
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(images/yedid.jpg);
+    animation: fadeIn 1.5s ease-in;
+    margin-top: 50px;
+    margin: auto;
+}
+
+h1{
+  background-color: aquamarine;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+#ooutput{
+    margin-top: 20px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 500px;
+}
+
+
+a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cat {
+    margin: 0;
+    padding-right: 200px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #5f1d10;
+    list-style-type: none;
+  }
+
+  div.polaroid {
+    width: 30%;
+    height: 72vh;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 8px 7px 6px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .polaroid{
+    transform: scale(0.9) ;
+  }
+
+  div.polaroi {
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 8px 7px 6px 7px  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    padding-top: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  } 
+  
+  div.containe {
+    text-align: center;
+    padding: 10px 1px;
+    width: 100%;
+    height: 70vh;
+    margin-top: 10px;
+    color: black;
+    overflow: hidden;
+  }
+
+  
